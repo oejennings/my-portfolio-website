@@ -200,8 +200,10 @@ button:hover, button:focus,
     list-style-type: none;
 }
 
-.table {
-    margin: 0 auto;
+.table, th, td {
+    border: 1px solid;
+    width: 30%;
+    margin: 20px auto;
     text-align: center;
 }
 

@@ -97,6 +97,10 @@ button:hover, button:focus,
     /* reduces the opacity of the button to 80%*/
     opacity: 0.8;
 }
+.button:visited {
+    background-color: var(--secondary-color);
+    color: var(--white-color)
+}
 
 .profile__portrait {
     float: left;
@@ -260,4 +264,5 @@ button:hover, button:focus,
     animation-direction: alternate;
     animation-timing-function: linear;
 }
+
 

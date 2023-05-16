@@ -113,6 +113,10 @@ button:hover, button:focus,
     /* reduces the opacity of the button to 80%*/
     opacity: 0.8;
 }
+.button:visited {
+    background-color: #0C5F30;
+    color: #FFFFFF
+}
 
 .profile__portrait {
     float: left;
@@ -127,7 +131,7 @@ button:hover, button:focus,
 }
 .profile {
     max-width: 700px;
-    margin: 0 auto;
+    margin: 200px auto;
 }
 .page-footer {
     clear: both;
@@ -252,8 +256,10 @@ button:hover, button:focus,
     list-style-type: none;
 }
 
-.table {
-    margin: 0 auto;
+.table, th, td {
+    border: 1px solid;
+    width: 30%;
+    margin: 50px auto;
     text-align: center;
 }
 
@@ -294,7 +300,7 @@ button:hover, button:focus,
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 10px auto;
+    margin: 50px auto;
     text-align: center;
 }
 .image-freepik {
@@ -335,3 +341,30 @@ button:hover, button:focus,
             animation-timing-function: linear;
 }
 
+
+@-webkit-keyframes newyork-move {
+    0% {
+       -webkit-transform: translate(0,92px);
+               transform: translate(0,92px);
+    }
+    100% {
+       -webkit-transform: translate(200px, 92px);
+               transform: translate(200px, 92px);
+    }
+}
+
+
+@keyframes newyork-move {
+    0% {
+       -webkit-transform: translate(0,92px);
+               transform: translate(0,92px);
+    }
+    100% {
+       -webkit-transform: translate(200px, 92px);
+               transform: translate(200px, 92px);
+    }
+}
+.newyork {
+   -webkit-animation: 10s newyork-move infinite alternate linear;
+           animation: 10s newyork-move infinite alternate linear;
+}

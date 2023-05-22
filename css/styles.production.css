@@ -386,31 +386,4 @@ body {
             animation-timing-function: linear;
   }
   
-  @-webkit-keyframes newyork-move {
-    0% {
-      -webkit-transform: translate(0, 92px);
-              transform: translate(0, 92px);
-    }
   
-    100% {
-      -webkit-transform: translate(200px, 92px);
-              transform: translate(200px, 92px);
-    }
-  }
-  
-  @keyframes newyork-move {
-    0% {
-      -webkit-transform: translate(0, 92px);
-              transform: translate(0, 92px);
-    }
-  
-    100% {
-      -webkit-transform: translate(200px, 92px);
-              transform: translate(200px, 92px);
-    }
-  }
-  
-  .newyork {
-    -webkit-animation: 10s newyork-move infinite alternate linear;
-            animation: 10s newyork-move infinite alternate linear;
-  }

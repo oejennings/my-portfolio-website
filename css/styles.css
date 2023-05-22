@@ -303,16 +303,4 @@ td {
   animation-timing-function: linear;
 }
 
-@keyframes newyork-move {
-  0% {
-    transform: translate(0, 92px);
-  }
 
-  100% {
-    transform: translate(200px, 92px);
-  }
-}
-
-.newyork {
-  animation: 10s newyork-move infinite alternate linear;
-}

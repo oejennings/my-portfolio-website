@@ -278,7 +278,8 @@ td {
 }
 
 .image-freepik {
-  margin: 10px 1300px;
+  text-align: center;
+  margin: auto;
 }
 
 @keyframes color-change {

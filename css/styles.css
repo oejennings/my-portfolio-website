@@ -178,7 +178,7 @@ button:focus,
 }
 
 .grid__item {
-  background-color: lightgray;
+  background-color: rgb(176, 200, 221);
   width: auto;
   min-height: auto;
   margin: 0;

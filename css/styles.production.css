@@ -587,7 +587,6 @@ button:focus,
 .grid__item {
   display: inline-block;
   width: 33%;
-  background-color: lightblue;
 }
 
 .grid {

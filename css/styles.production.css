@@ -599,7 +599,7 @@ button:focus,
 }
 
 .grid__item {
-  background-color: lightgray;
+  background-color: lightblue;
   width: auto;
   min-height: auto;
   margin: 0;
@@ -691,7 +691,6 @@ td {
   .grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-    background-color: #4cc5ed;
   }
 }
 

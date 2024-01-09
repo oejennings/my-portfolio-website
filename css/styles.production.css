@@ -691,6 +691,7 @@ td {
   .grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+    background-color: #4cc5ed;
   }
 }
 
